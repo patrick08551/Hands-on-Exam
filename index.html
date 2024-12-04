@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">LAGAYA.</div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#more info">More</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="profile-image">
+                <img src="c:\Users\paula lagaya\Downloads\c996367b-5747-44ec-bf6b-11b5860d125d.jpg" alt="Profile">
+            </div>
+            <div class="hero-text">
+                <h1>Hello,<br><span>Patrick Laurence Lagaya</span></h1>
+                <p>And I'm an IT Student from DLL</p>
+                <p>Here you can Access My Personal Information and know about me</p>
+                <p>I am open to take some new task and have a creative mind</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/patrick.lagaya.7?mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/lagaya_patrick/profilecard/?igsh=N3Qyb3ZqZTU3a3h4"><i class="fab fa-instagram"></i></a>
+                </div>
+                <button class="btn">Download CV</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <img src="c:\Users\paula lagaya\Downloads\5eab1fb4-2b7c-41c1-aa79-0f3360de3a3a.jpg" alt="Profile Picture" class="profile-pic">
+            <p>
+                Hi! I'm Patrick Laurence G. Lagaya, a student who's passionate at stuff that 
+                can't be explained. I'm a type of person that is curious at everything I found 
+                interesting. I work well in teams as well on my own because I like to establish
+                things that I'm good at.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Web Designer</li>
+            <li>Time Management</li>
+            <li>Communication Skills</li>
+            <li>Project Managements</li>
+            <li>Problem Solving Skills</li>
+        </ul>
+        <h2>Possible Jobs</h2>
+        <ul>
+            <li>Web Designer</li>
+            <li>Taga Tempered</li>
+            <li>Crew ng Mcdo/Jabile</li>
+            <li>Tambay</li>
+            <li>Probably dead na</li>
+        </ul>
+    </section>
+    
+
+    <!-- Testimonials Section -->
+    <section id="more info">
+        <h2>More Informations</h2>
+        <p>"I am hardworking student. My dedication to my work is inspiring!"</p>
+        <p>"I also like playing online games"</p>
+        <p>"My hobby is to sleep and eat"</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="patricklagaya@gmail.com">GMAIL</a></p>
+        <p>Phone: 0991 868 3097 </p>
+        <p>Socials: 
+            <a href="https://www.facebook.com/patrick.lagaya.7?mibextid=ZbWKwL">Facebook</a> | 
+            <a href="https://www.instagram.com/lagaya_patrick/profilecard/?igsh=N3Qyb3ZqZTU3a3h4">Instagram</a>
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Patrick Laurence Lagaya</p>
+        <p>I enjoy coffee and musics</p>
+        <p>I enjoy having fun and being around with people I'm comfortable with</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
